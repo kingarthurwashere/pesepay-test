@@ -3,8 +3,8 @@ const express = require('express');
 const { Pesepay } = require('pesepay');
 
 // Replace the following variables with your actual values
-const integrationKey ='b32bae83-ea8a-4e4a-9b33-80851b1a5514';
-const encryptionKey = '6b2a34e90711448a88253ca906727335';
+const integrationKey = 'YOUR_INTEGRATION_KEY';
+const encryptionKey = 'YOUR_ENCRYPTION_KEY';
 const amount = 1; // Amount in your desired currency's minor unit (e.g., cents)
 const currencyCode = 'ZWL'; // Replace with the desired currency code
 const paymentReason = 'Test payment'; // Replace with your payment reason
